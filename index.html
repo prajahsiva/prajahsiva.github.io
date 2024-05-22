@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "robots" content = "noindex,nofollow">
+    <title>Happy Hut</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href = "css/style.css">
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- font awesome library include 4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+</head>
+                               
+                            
+<body>
+ <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+   <div class = "cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="img/logo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a> 
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                       <div class="cs-container">
+                        <a href="#hero-1785" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="cs-li">
+                        <a href="#gallery-1716" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="cs-li">
+                        <a href="#services-1628" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="cs-li">
+                        <a href="#reviews-566" class="cs-li-link">
+                            Photos & Reviews
+                        </a>
+                    </li>
+
+                    <li class="cs-li">
+                        <a href="#cs-contact-242" class="cs-li-link">
+                            Contact Us
+                        </a>
+                    </li>
+            
+                    <li class="cs-li">
+                        <a href="#cs-footer-269" class="cs-li-link">
+                            Opening Hours
+                        </a>
+                    </li> 
+                </ul> 
+            </div> 
+            
+        </nav>
+    </div>     
+</header>
+
+                                
+
+<!-- ============================================ -->
+<!--                    Hero  - header                    -->
+<!-- ============================================ -->
+
+<section id="hero-1785">
+    <div class="cs-container">
+        <div class="cs-content">
+            <button class="toggle-mode js-toggle-mode"><i class="fa fa-moon-o fa-2x" aria-hidden="true"></i></button> 
+
+            <span class="cs-topper">Truly Authentic Pinoy Food</span>
+            <h1 class="cs-title">Happy Hut</h1>
+            <p class="cs-text">
+                Happy Hut is the one-stop shop for all your needs. From food order services to All-Filipino groceries! With Happy Hut’s wide array of services, it is definitely your home shop away from home.
+            <div class="cs-button-group">
+                <a href="#services-1724" class="cs-button-solid cs-button1">Menu</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" src="img/happy hut_home.jpg">
+        <source media="(min-width: 601px)" src="img/happy hut_home.jpg">
+        <img loading="lazy" decoding="async" src="img/happy hut_home.jpg" alt="field" width="1920" height="1200" aria-hidden="true">
+    </picture>
+
+    
+</section>
+
+<!-- ============================================ -->
+<!--                  Gallery                     -->
+<!-- ============================================ -->
+
+<section id="gallery-1716">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Meet the Team</span>
+            <h2 class="cs-title">About Us</h2>
+            <!--If you remove the cs-text, the rectangle shape will disappear.  If you need to remove it, transfer the :before and .cs-text:last-of-type styles to the cs-title on mobile and desktop-->
+            <p class="cs-text">
+                Happy Hut is founded by the husband and wife team of Amador & Ligaya Binuya, 
+                with the purpose of letting both Filipinos and Australians experience truly Pinoy flavour.            </p>
+            <a href="" class="cs-button-solid">View All</a>
+        </div>
+        <div class="cs-gallery">
+            <picture class="cs-picture">
+                <img loading="lazy" decoding="async"
+                        src="img/team.jpeg" alt="picture"
+                        width="480" height="549">
+            </picture>
+            <picture class="cs-picture">
+                <img loading="lazy" decoding="async"
+                        src="img/person3.png" alt="picture"
+                        width="480" height="549">
+            </picture>
+            <picture class="cs-picture">
+                <img loading="lazy" decoding="async"
+                        src="img/person2.png" alt="picture"
+                        width="480" height="549">
+            </picture>
+        </div>
+    </div>
+</section>
+
+
+
+
+                                
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-1628">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Our Services</span>
+                <h2 class="cs-title">Many services - To make you feel at home!</h2>
+            </div>
+            <p class="cs-text">
+                With all the services offered by Happy Hut, you will never miss home. Order delicious Filipino delicacies or create your own at home. You can also send money to your loved ones or give the money yourself by traveling back home. 
+                Happy Hut will do its best to let you feel that you are still home.            
+            </p>
+        </div>                  
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <img loading="lazy" decoding="async" src="img/party.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">Party Food Orders</h3>
+                    <p class="cs-item-text">
+                        We got you covered! Happy Hut is happy to bring its kitchen skills to your event. As a customer, you can request what meals you want us to serve. 
+                        Share distinct flavours to your guests and show genuine Filipino hospitality at your event. You can book our catering services by calling 0383904212 / 0433917511.
+                    </p>
+
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <img loading="lazy" decoding="async" src="img/lunch.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">Lunch Specials</h3>
+                    <p class="cs-item-text">
+                        Our lunch specials changes daily and all of these meals are cooked during the day itself. All meals are cooked with only the freshest produce and ingredients imported from the Philippines. 
+                        Have a taste of home by visiting Happy Hut! Worried that you will not be able to finish the meal? 
+                        No sweat, takeaways are encouraged here.                    
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <img loading="lazy" decoding="async" src="img/grocery.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">Grocery</h3>
+                    <p class="cs-item-text">
+                        Whip up your own homey Filipino dishes in the comfort of your own kitchen or munch on childhood favourites. Here at
+                        Happy Hut, everything is here from fresh produce, packaged ingredients, and delectable snacks. All goods are freshly imported from the Philippines!                    
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <img loading="lazy" decoding="async" src="img/money.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">Money Remittance</h3>
+                    <p class="cs-item-text">
+                        Send love to your dearest ones here and abroad by using our money remittance service.
+                         All transactions are fast and secure so no worries. We can assure you that all cash delivered are safe and sound. 
+                        To get updated of the exchange rate, please visit our Facebook page.                    
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                                                
+                            
+
+ <!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
+
+<section id="reviews-566">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Photos & Review</span>
+            <h2 class="cs-title">What Our Clients Say</h2>
+            <p class="cs-text"> Below are some of our menu items and reviews!
+            </p>
+        </div>
+
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="img/adobo.jpg" data-fancybox="gallery" data-caption="Adobo">
+                        <img src="img/adobo.jpg" alt=""/>
+                </a>
+            </li>
+        
+            <li class="cs-item">
+                <a href="img/empanadas.jpg" data-fancybox="gallery" data-caption="Empanadas">
+                    <img src="img/empanadas.jpg" alt=""/>
+                 </a>
+            </li>
+
+            <li class="cs-item">
+                <a href="img/buchi.jpg" data-fancybox="gallery" data-caption="Buchi">
+                    <img src="img/buchi.jpg" alt=""/>
+                 </a>
+            </li>
+        </ul>
+
+
+
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/stars3.svg" decoding="async" alt="quote icon" width="189" height="24">
+                <p class="cs-item-text">
+                    Wow! The best foods where to cater for your party. Mabait at masarap ang pagkain with different varieties of Filo stuffs.
+                </p>
+                <div class="cs-flex-group">
+                    <picture class="cs-picture">
+                        <img class="cs-profile" src="img/profile1.jpeg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                    </picture>
+                    <span class="cs-name">
+                        Lindy Gabo Abacan
+                        
+                    </span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/stars3.svg" decoding="async" alt="quote icon" width="189" height="24">
+                <p class="cs-item-text">
+                    They have delicious food and fresh ingrediants! Everytime I go to the store, reminds me of back home. 
+                </p>
+                <div class="cs-flex-group">
+                    <picture class="cs-picture">
+                        <img class="cs-profile" src="img/profile2.jpg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                    </picture>
+                    <span class="cs-name">
+                        Claire Loleng
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>                               
+
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
+
+<section id="cs-contact-242">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Orders and Bookings</span>
+            <h2 class="cs-title">Contact Us</h2>
+            <p class="cs-text">
+                Order Takeaways or Party Food Orders to spice up your lunch or events. Contact us now at 03 8390 4212 or email happyhut@bigpond.com for further inquiries. 
+                We are open Tuesday to Sunday, from 10 AM till 7 PM except some public holidays.            </p>
+        </div>
+        <!-- Form -->
+        <form id="cs-form-242" name="Contact Form" method="post">
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-242" name="name" placeholder="John/Jane Doe">
+            </label>
+            <label class="cs-label">
+                Email
+                <input class="cs-input" required type="text" id="email-242" name="email" placeholder="name@company.com">
+            </label>
+            <label class="cs-label">
+                Phone
+                <input class="cs-input" required type="text" id="phone-242" name="phone" placeholder="0000 000 000">
+            </label>
+            <label class="cs-label">
+                How Did You Find Us
+                <input class="cs-input" type="text" id="find-242" name="find-us" placeholder="Social Media, Family, Friend...">
+            </label>
+            <label class="cs-label cs-label-message">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-242" placeholder="Hello, I’m interested in..."></textarea>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Submit Message </button>
+        </form>
+        <!-- Contact Info -->
+        <div class="cs-right-section">
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:support@yourdomain.com" class="cs-link">happyhut@bigpond.com</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:206-987-6543" class="cs-link">(03) 8390-4212</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                   
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="" class="cs-link"><span class="cs-block">85-87 Oakwood Rd,</span> Albanvale VIC 3023</a>
+                    </div>
+                </li>
+            </ul>
+            
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="#hero-1785">
+                <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="img/logo.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+                OPENING HOURS: <br>
+                Tuesday to Sunday <br>
+                10:00 AM to 17:00 PM<br>
+                Closed on Public Holidays
+            </p>
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Sitemap</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#hero-1785">Home</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#services-1724">About Us</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#reviews-566">Services</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#services-1829">Photos & Reviews</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#meet-us-1021">Contact Us</a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-contact">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" >03 8390 4212</a>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link">happyhut@bigpond.com</a>
+            </li>
+            <!-- Social Media -->
+            <li class="cs-contact-li cs-social-group">
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="visit google profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src = "js/script.js"></script>
+    
+</body>
+</html>
